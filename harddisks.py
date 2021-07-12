@@ -87,7 +87,7 @@ def persistence_bars_of_weighted_no_k_equal_space(n, weights):
 
 # Return a list of persistence bars corresponding to critical cells
 # which map to the permutation "perm" when you forget about the bars.
-# For a given width w, there is at most one such bar, so we compute it
+# For a given width w, there is at most one such cell, so we compute it
 # by iterating over w.
 def critical_cell_bars(perm, n, weights):
     intervals=[]
